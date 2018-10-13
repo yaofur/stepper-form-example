@@ -1,23 +1,41 @@
 import * as React from 'react'
 import { render } from 'react-dom'
+import TenantForm, { FormData } from './components/TenantForm'
+import PreviewData from './components/PreviewView'
 
-enum salaryIndication {
-  SALARY_0_1K,
-  SALARY_1K_2K,
-  SALARY_2K_3K,
-  SALARY_3K_4k,
-  SALARY_4K_PLUS
+enum Step {
+  FILLFORM,
+  PREVIEW
 }
 
-interface FormData {
-  fullName: string
-  email: string
-  phoneNumber: string
-  salaryIndication: salaryIndication
+interface AppState {
+  step: Step
+  formData?: FormData
 }
 
-function App () {
-  return <p>hello home</p>
+class App extends React.Component<{}> {
+  readonly state: AppState = {
+    step: Step.FILLFORM,
+    formData: null
+  }
+
+  onSubmit = (data:FormData) => {
+    this.setState(() => {
+      return {
+        step: Step.PREVIEW,
+        formData: data
+      }
+    })
+  }
+
+  render () {
+    if (this.state.step === Step.FILLFORM) {
+      return <TenantForm onSubmit={this.onSubmit} />
+    } else if (this.state.step === Step.PREVIEW) {
+      return <PreviewData data={this.state.formData} />
+    }
+  }
 }
+
 
 render(<App />, document.getElementById('app'))
