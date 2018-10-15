@@ -1,4 +1,4 @@
-# home.ht
+# Stepper-Form-Example
 
 ## before all
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-![image](https://user-images.githubusercontent.com/289392/46977053-68ccf080-d0cb-11e8-9c1d-5b6b42cc3573.png)
+![oct-15-2018 22-48-46](https://user-images.githubusercontent.com/289392/46977439-8d759800-d0cc-11e8-9156-82348a0442b2.gif)
 
 TypeScript + React + Formik
 
@@ -30,10 +30,6 @@ In real world application, I may choose [rematch](https://rematch.gitbooks.io/re
 [Styled-Components](https://www.styled-components.com/)
 
 There's a lot of CSS solution out there, it's hard to tell which one is better. Personal I prefer *CSS-Module* or *StyledComponents* or *styled-jsx*(only when using next.js).
-
-## Design
-
-I *copied* many design ideas (button, progress-bar) from home.ht.
 
 ## Test
 
