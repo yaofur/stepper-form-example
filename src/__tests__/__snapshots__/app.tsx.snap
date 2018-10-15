@@ -1,0 +1,1000 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeApp should work correctly 1`] = `
+Object {
+  "errors": Object {},
+  "isSubmitting": true,
+  "isValidating": true,
+  "status": 3,
+  "submitCount": 1,
+  "touched": Object {
+    "email": true,
+    "fullName": true,
+    "phoneNumber": true,
+    "salaryIndication": true,
+  },
+  "values": Object {
+    "email": "test@example.com",
+    "fullName": "Keith Yao",
+    "phoneNumber": "+491683450567",
+    "salaryIndication": 1,
+  },
+}
+`;
+
+exports[`HomeApp should work correctly 2`] = `
+<App>
+  <styled.div>
+    <div
+      className="sc-dnqmqq gDGYUQ"
+    >
+      <TenantForm
+        onSubmit={[Function]}
+      >
+        <Formik
+          enableReinitialize={false}
+          initialValues={
+            Object {
+              "email": "",
+              "fullName": "",
+              "phoneNumber": "",
+              "salaryIndication": 0,
+            }
+          }
+          isInitialValid={false}
+          onSubmit={[Function]}
+          render={[Function]}
+          validateOnBlur={true}
+          validateOnChange={true}
+          validationSchema={
+            ObjectSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_defaultDefault": [Function],
+              "_deps": Array [],
+              "_excludedEdges": Array [],
+              "_exclusive": Object {},
+              "_mutate": false,
+              "_nodes": Array [
+                "salaryIndication",
+                "phoneNumber",
+                "email",
+                "fullName",
+              ],
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "object",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "fields": Object {
+                "email": StringSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "required": false,
+                    "undefined": false,
+                  },
+                  "_mutate": false,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "string",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+                "fullName": StringSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "min": true,
+                    "required": false,
+                  },
+                  "_mutate": false,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "string",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+                "phoneNumber": StringSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "min": true,
+                    "required": false,
+                  },
+                  "_mutate": false,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "string",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+                "salaryIndication": NumberSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {},
+                  "_mutate": false,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "number",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+              },
+              "tests": Array [],
+              "transforms": Array [
+                [Function],
+              ],
+            }
+          }
+        >
+          <Form>
+            <Component
+              formik={
+                Object {
+                  "dirty": true,
+                  "errors": Object {},
+                  "handleBlur": [Function],
+                  "handleChange": [Function],
+                  "handleReset": [Function],
+                  "handleSubmit": [Function],
+                  "initialValues": Object {
+                    "email": "",
+                    "fullName": "",
+                    "phoneNumber": "",
+                    "salaryIndication": 0,
+                  },
+                  "isSubmitting": true,
+                  "isValid": true,
+                  "isValidating": true,
+                  "registerField": [Function],
+                  "resetForm": [Function],
+                  "setError": [Function],
+                  "setErrors": [Function],
+                  "setFieldError": [Function],
+                  "setFieldTouched": [Function],
+                  "setFieldValue": [Function],
+                  "setFormikState": [Function],
+                  "setStatus": [Function],
+                  "setSubmitting": [Function],
+                  "setTouched": [Function],
+                  "setValues": [Function],
+                  "status": 3,
+                  "submitCount": 2,
+                  "submitForm": [Function],
+                  "touched": Object {
+                    "email": true,
+                    "fullName": true,
+                    "phoneNumber": true,
+                    "salaryIndication": true,
+                  },
+                  "unregisterField": [Function],
+                  "validate": undefined,
+                  "validateField": [Function],
+                  "validateForm": [Function],
+                  "validateOnBlur": true,
+                  "validateOnChange": true,
+                  "validationSchema": ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": false,
+                    "_nodes": Array [
+                      "salaryIndication",
+                      "phoneNumber",
+                      "email",
+                      "fullName",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "email": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "required": false,
+                          "undefined": false,
+                        },
+                        "_mutate": false,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                      "fullName": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "min": true,
+                          "required": false,
+                        },
+                        "_mutate": false,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                      "phoneNumber": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "min": true,
+                          "required": false,
+                        },
+                        "_mutate": false,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                      "salaryIndication": NumberSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {},
+                        "_mutate": false,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "number",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                  },
+                  "values": Object {
+                    "email": "test@example.com",
+                    "fullName": "Keith Yao",
+                    "phoneNumber": "+491683450567",
+                    "salaryIndication": 1,
+                  },
+                }
+              }
+            >
+              <form
+                onSubmit={[Function]}
+              >
+                <ProgressIndicator
+                  current={4}
+                  total={4}
+                >
+                  <div>
+                    <styled.span>
+                      <span
+                        className="sc-htoDjs diBjuv"
+                      >
+                        4
+                         / 
+                        4
+                      </span>
+                    </styled.span>
+                    <styled.div
+                      value={100}
+                    >
+                      <div
+                        className="sc-gzVnrw jGclsp"
+                        value={100}
+                      />
+                    </styled.div>
+                  </div>
+                </ProgressIndicator>
+                <InputField
+                  isLastStep={true}
+                  label="Salary"
+                  name="salaryIndication"
+                  options={
+                    Array [
+                      Object {
+                        "label": "0 - 1.000",
+                        "value": 0,
+                      },
+                      Object {
+                        "label": "1.000 - 2.000",
+                        "value": 1,
+                      },
+                      Object {
+                        "label": "2.000 - 3.000",
+                        "value": 2,
+                      },
+                      Object {
+                        "label": "2.000 - 3.000",
+                        "value": 3,
+                      },
+                      Object {
+                        "label": "Mehr als 4.000",
+                        "value": 4,
+                      },
+                    ]
+                  }
+                  type="select"
+                >
+                  <C
+                    name="salaryIndication"
+                    render={[Function]}
+                  >
+                    <FieldInner
+                      formik={
+                        Object {
+                          "dirty": true,
+                          "errors": Object {},
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialValues": Object {
+                            "email": "",
+                            "fullName": "",
+                            "phoneNumber": "",
+                            "salaryIndication": 0,
+                          },
+                          "isSubmitting": true,
+                          "isValid": true,
+                          "isValidating": true,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setError": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": 3,
+                          "submitCount": 2,
+                          "submitForm": [Function],
+                          "touched": Object {
+                            "email": true,
+                            "fullName": true,
+                            "phoneNumber": true,
+                            "salaryIndication": true,
+                          },
+                          "unregisterField": [Function],
+                          "validate": undefined,
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validationSchema": ObjectSchema {
+                            "_blacklist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "_conditions": Array [],
+                            "_defaultDefault": [Function],
+                            "_deps": Array [],
+                            "_excludedEdges": Array [],
+                            "_exclusive": Object {},
+                            "_mutate": false,
+                            "_nodes": Array [
+                              "salaryIndication",
+                              "phoneNumber",
+                              "email",
+                              "fullName",
+                            ],
+                            "_options": Object {
+                              "abortEarly": true,
+                              "recursive": true,
+                            },
+                            "_type": "object",
+                            "_typeError": [Function],
+                            "_whitelist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "fields": Object {
+                              "email": StringSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {
+                                  "required": false,
+                                  "undefined": false,
+                                },
+                                "_mutate": false,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "string",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                              },
+                              "fullName": StringSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {
+                                  "min": true,
+                                  "required": false,
+                                },
+                                "_mutate": false,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "string",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                              },
+                              "phoneNumber": StringSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {
+                                  "min": true,
+                                  "required": false,
+                                },
+                                "_mutate": false,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "string",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                              },
+                              "salaryIndication": NumberSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {},
+                                "_mutate": false,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "number",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                              },
+                            },
+                            "tests": Array [],
+                            "transforms": Array [
+                              [Function],
+                            ],
+                          },
+                          "values": Object {
+                            "email": "test@example.com",
+                            "fullName": "Keith Yao",
+                            "phoneNumber": "+491683450567",
+                            "salaryIndication": 1,
+                          },
+                        }
+                      }
+                      name="salaryIndication"
+                      render={[Function]}
+                    >
+                      <styled.div>
+                        <div
+                          className="sc-EHOje fpqoIO"
+                        >
+                          <Selector
+                            label="Salary"
+                            name="salaryIndication"
+                            options={
+                              Array [
+                                Object {
+                                  "label": "0 - 1.000",
+                                  "value": 0,
+                                },
+                                Object {
+                                  "label": "1.000 - 2.000",
+                                  "value": 1,
+                                },
+                                Object {
+                                  "label": "2.000 - 3.000",
+                                  "value": 2,
+                                },
+                                Object {
+                                  "label": "2.000 - 3.000",
+                                  "value": 3,
+                                },
+                                Object {
+                                  "label": "Mehr als 4.000",
+                                  "value": 4,
+                                },
+                              ]
+                            }
+                          >
+                            <styled.div>
+                              <div
+                                className="sc-ifAKCX fOgGzL"
+                              >
+                                <styled.label>
+                                  <label
+                                    className="sc-htpNat eSdalb"
+                                  >
+                                    Salary
+                                  </label>
+                                </styled.label>
+                                <C
+                                  component="select"
+                                  name="salaryIndication"
+                                >
+                                  <FieldInner
+                                    component="select"
+                                    formik={
+                                      Object {
+                                        "dirty": true,
+                                        "errors": Object {},
+                                        "handleBlur": [Function],
+                                        "handleChange": [Function],
+                                        "handleReset": [Function],
+                                        "handleSubmit": [Function],
+                                        "initialValues": Object {
+                                          "email": "",
+                                          "fullName": "",
+                                          "phoneNumber": "",
+                                          "salaryIndication": 0,
+                                        },
+                                        "isSubmitting": true,
+                                        "isValid": true,
+                                        "isValidating": true,
+                                        "registerField": [Function],
+                                        "resetForm": [Function],
+                                        "setError": [Function],
+                                        "setErrors": [Function],
+                                        "setFieldError": [Function],
+                                        "setFieldTouched": [Function],
+                                        "setFieldValue": [Function],
+                                        "setFormikState": [Function],
+                                        "setStatus": [Function],
+                                        "setSubmitting": [Function],
+                                        "setTouched": [Function],
+                                        "setValues": [Function],
+                                        "status": 3,
+                                        "submitCount": 2,
+                                        "submitForm": [Function],
+                                        "touched": Object {
+                                          "email": true,
+                                          "fullName": true,
+                                          "phoneNumber": true,
+                                          "salaryIndication": true,
+                                        },
+                                        "unregisterField": [Function],
+                                        "validate": undefined,
+                                        "validateField": [Function],
+                                        "validateForm": [Function],
+                                        "validateOnBlur": true,
+                                        "validateOnChange": true,
+                                        "validationSchema": ObjectSchema {
+                                          "_blacklist": RefSet {
+                                            "list": Set {},
+                                            "refs": Map {},
+                                          },
+                                          "_conditions": Array [],
+                                          "_defaultDefault": [Function],
+                                          "_deps": Array [],
+                                          "_excludedEdges": Array [],
+                                          "_exclusive": Object {},
+                                          "_mutate": false,
+                                          "_nodes": Array [
+                                            "salaryIndication",
+                                            "phoneNumber",
+                                            "email",
+                                            "fullName",
+                                          ],
+                                          "_options": Object {
+                                            "abortEarly": true,
+                                            "recursive": true,
+                                          },
+                                          "_type": "object",
+                                          "_typeError": [Function],
+                                          "_whitelist": RefSet {
+                                            "list": Set {},
+                                            "refs": Map {},
+                                          },
+                                          "fields": Object {
+                                            "email": StringSchema {
+                                              "_blacklist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "_conditions": Array [],
+                                              "_deps": Array [],
+                                              "_exclusive": Object {
+                                                "required": false,
+                                                "undefined": false,
+                                              },
+                                              "_mutate": false,
+                                              "_options": Object {
+                                                "abortEarly": true,
+                                                "recursive": true,
+                                              },
+                                              "_type": "string",
+                                              "_typeError": [Function],
+                                              "_whitelist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "tests": Array [
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                              ],
+                                              "transforms": Array [
+                                                [Function],
+                                              ],
+                                            },
+                                            "fullName": StringSchema {
+                                              "_blacklist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "_conditions": Array [],
+                                              "_deps": Array [],
+                                              "_exclusive": Object {
+                                                "min": true,
+                                                "required": false,
+                                              },
+                                              "_mutate": false,
+                                              "_options": Object {
+                                                "abortEarly": true,
+                                                "recursive": true,
+                                              },
+                                              "_type": "string",
+                                              "_typeError": [Function],
+                                              "_whitelist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "tests": Array [
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                              ],
+                                              "transforms": Array [
+                                                [Function],
+                                              ],
+                                            },
+                                            "phoneNumber": StringSchema {
+                                              "_blacklist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "_conditions": Array [],
+                                              "_deps": Array [],
+                                              "_exclusive": Object {
+                                                "min": true,
+                                                "required": false,
+                                              },
+                                              "_mutate": false,
+                                              "_options": Object {
+                                                "abortEarly": true,
+                                                "recursive": true,
+                                              },
+                                              "_type": "string",
+                                              "_typeError": [Function],
+                                              "_whitelist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "tests": Array [
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                              ],
+                                              "transforms": Array [
+                                                [Function],
+                                              ],
+                                            },
+                                            "salaryIndication": NumberSchema {
+                                              "_blacklist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "_conditions": Array [],
+                                              "_deps": Array [],
+                                              "_exclusive": Object {},
+                                              "_mutate": false,
+                                              "_options": Object {
+                                                "abortEarly": true,
+                                                "recursive": true,
+                                              },
+                                              "_type": "number",
+                                              "_typeError": [Function],
+                                              "_whitelist": RefSet {
+                                                "list": Set {},
+                                                "refs": Map {},
+                                              },
+                                              "tests": Array [],
+                                              "transforms": Array [
+                                                [Function],
+                                              ],
+                                            },
+                                          },
+                                          "tests": Array [],
+                                          "transforms": Array [
+                                            [Function],
+                                          ],
+                                        },
+                                        "values": Object {
+                                          "email": "test@example.com",
+                                          "fullName": "Keith Yao",
+                                          "phoneNumber": "+491683450567",
+                                          "salaryIndication": 1,
+                                        },
+                                      }
+                                    }
+                                    name="salaryIndication"
+                                  >
+                                    <select
+                                      name="salaryIndication"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      value={1}
+                                    >
+                                      <option
+                                        key="0"
+                                        value={0}
+                                      >
+                                        0 - 1.000
+                                      </option>
+                                      <option
+                                        key="1"
+                                        value={1}
+                                      >
+                                        1.000 - 2.000
+                                      </option>
+                                      <option
+                                        key="2"
+                                        value={2}
+                                      >
+                                        2.000 - 3.000
+                                      </option>
+                                      <option
+                                        key="3"
+                                        value={3}
+                                      >
+                                        2.000 - 3.000
+                                      </option>
+                                      <option
+                                        key="4"
+                                        value={4}
+                                      >
+                                        Mehr als 4.000
+                                      </option>
+                                    </select>
+                                  </FieldInner>
+                                </C>
+                              </div>
+                            </styled.div>
+                          </Selector>
+                          <styled.button
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <button
+                              className="sc-bdVaJa ebilau"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Submit
+                            </button>
+                          </styled.button>
+                        </div>
+                      </styled.div>
+                    </FieldInner>
+                  </C>
+                </InputField>
+              </form>
+            </Component>
+          </Form>
+        </Formik>
+      </TenantForm>
+    </div>
+  </styled.div>
+</App>
+`;

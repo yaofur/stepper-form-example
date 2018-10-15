@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 
-const Progress = styled.div`
+const Progress : any = styled.div`
   border-radius: 0.375rem;
   overflow: hidden;
   position: relative;
@@ -18,7 +18,7 @@ const Progress = styled.div`
     width: 100%;
     height: 100%;
     background: #2e3642;
-    transform: translateX(${props => props.value}%);
+    transform: translateX(${(props:any) => props.value}%);
     transition: transform 1s cubic-bezier(0.17, 0.67, 0.19, 0.95);
   }
 `

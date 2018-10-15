@@ -46,7 +46,7 @@ const Wrapper = styled.div`
   flex-direction: column;
 `
 
-const TextFieldLabel = styled(Label)`
+const TextFieldLabel: any = styled(Label)`
   position: absolute;
   left: 0;
   transition: 0.2s ease-out;
@@ -106,7 +106,9 @@ const InputField: React.SFC<{
             )}
 
             {form.touched[name] &&
-              form.errors[name] && <ErrorMessage>{form.errors[name]}</ErrorMessage>}
+              form.errors[name] && (
+                <ErrorMessage data-test="error-message">{form.errors[name]}</ErrorMessage>
+              )}
 
             <Button
               disabled={type === 'select' ? false : !form.values[name] || form.errors[name]}
